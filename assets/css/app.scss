@@ -1,0 +1,95 @@
+--- 
+---
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,700');
+
+$Background:#f7f9ff;
+$Black-text:#0c0c0c;
+$Red:#ff3500;
+$typography: Roboto;
+
+
+body {
+    background-color: $Background;
+    color: $Black-text;
+
+    font-family: $typography;
+    font-weight: 300;
+    line-height: 1.3;
+
+    max-width: 780px;
+    margin: 80px auto;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+        margin-left: 10px;
+    }
+}
+
+header nav a, section a {
+    color: $Black-text;
+    text-decoration: none;
+    border-bottom: 3px solid $Red;
+}
+
+section {
+    margin: 40px 0 0 0;
+}
+
+p.read-more {
+    font-weight: 700;
+    display: flex;
+
+    img {
+        margin-left: 8px;
+    }
+}
+
+.blog-posts  {
+    margin-top: 24px;
+
+    h2 {
+        margin-bottom: 12px;
+        margin-top: 56px;
+    }
+
+    p {
+        margin-bottom: 12px;
+    }
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+h1.post-title.p-name {
+    margin-bottom: 42px;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+div.circle {
+    position: fixed;
+    bottom: -250px;
+    right: -250px;
+    width: 500px;
+    height: 500px;
+    background-color: $Red;
+    border-radius: 50%;
+}
