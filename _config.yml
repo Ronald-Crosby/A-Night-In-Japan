@@ -21,8 +21,8 @@ defaults:
     layout: post
 email: olly_robinson@live.com
 description: Japan. At Night.
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: 
 github_username: Ronald-Crosby
 markdown: kramdown
